@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E129773AB6D4129E5E79C27 /* libPods-InstaAPIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91ED9AA6B9452B73140EB64D /* libPods-InstaAPIDemo.a */; };
 		28FA1A371D678AD900BABB1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA1A361D678AD900BABB1E /* main.m */; };
 		28FA1A3A1D678AD900BABB1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA1A391D678AD900BABB1E /* AppDelegate.m */; };
 		28FA1A3D1D678AD900BABB1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA1A3C1D678AD900BABB1E /* ViewController.m */; };
 		28FA1A401D678AD900BABB1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA1A3E1D678AD900BABB1E /* Main.storyboard */; };
 		28FA1A421D678AD900BABB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FA1A411D678AD900BABB1E /* Assets.xcassets */; };
 		28FA1A451D678AD900BABB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FA1A431D678AD900BABB1E /* LaunchScreen.storyboard */; };
+		28FA1A521D6790AB00BABB1E /* InstaAPIDemoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FA1A511D6790AB00BABB1E /* InstaAPIDemoConstants.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		28FA1A411D678AD900BABB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FA1A441D678AD900BABB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FA1A461D678AD900BABB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FA1A501D6790AB00BABB1E /* InstaAPIDemoConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaAPIDemoConstants.h; sourceTree = "<group>"; };
+		28FA1A511D6790AB00BABB1E /* InstaAPIDemoConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaAPIDemoConstants.m; sourceTree = "<group>"; };
+		91ED9AA6B9452B73140EB64D /* libPods-InstaAPIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaAPIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58AD6F32B498847F5509F79 /* Pods-InstaAPIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAPIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaAPIDemo/Pods-InstaAPIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E780930FDC481623B366EE0C /* Pods-InstaAPIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaAPIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaAPIDemo/Pods-InstaAPIDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E129773AB6D4129E5E79C27 /* libPods-InstaAPIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				28FA1A341D678AD900BABB1E /* InstaAPIDemo */,
 				28FA1A331D678AD900BABB1E /* Products */,
+				37669867581D47DA881F2D70 /* Pods */,
+				EF8FE08C88D2B2CF9A82F7FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +70,8 @@
 			children = (
 				28FA1A381D678AD900BABB1E /* AppDelegate.h */,
 				28FA1A391D678AD900BABB1E /* AppDelegate.m */,
+				28FA1A501D6790AB00BABB1E /* InstaAPIDemoConstants.h */,
+				28FA1A511D6790AB00BABB1E /* InstaAPIDemoConstants.m */,
 				28FA1A3B1D678AD900BABB1E /* ViewController.h */,
 				28FA1A3C1D678AD900BABB1E /* ViewController.m */,
 				28FA1A3E1D678AD900BABB1E /* Main.storyboard */,
@@ -79,6 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		37669867581D47DA881F2D70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C58AD6F32B498847F5509F79 /* Pods-InstaAPIDemo.debug.xcconfig */,
+				E780930FDC481623B366EE0C /* Pods-InstaAPIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF8FE08C88D2B2CF9A82F7FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91ED9AA6B9452B73140EB64D /* libPods-InstaAPIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FA1A491D678AD900BABB1E /* Build configuration list for PBXNativeTarget "InstaAPIDemo" */;
 			buildPhases = (
+				4F2099B7560A0E873A3104FF /* [CP] Check Pods Manifest.lock */,
 				28FA1A2E1D678AD900BABB1E /* Sources */,
 				28FA1A2F1D678AD900BABB1E /* Frameworks */,
 				28FA1A301D678AD900BABB1E /* Resources */,
+				D4C852A6AFAAC8FFB985680E /* [CP] Embed Pods Frameworks */,
+				A0D570DFDD98C927F3DB785B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +176,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F2099B7560A0E873A3104FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D570DFDD98C927F3DB785B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaAPIDemo/Pods-InstaAPIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C852A6AFAAC8FFB985680E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaAPIDemo/Pods-InstaAPIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28FA1A2E1D678AD900BABB1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				28FA1A3D1D678AD900BABB1E /* ViewController.m in Sources */,
+				28FA1A521D6790AB00BABB1E /* InstaAPIDemoConstants.m in Sources */,
 				28FA1A3A1D678AD900BABB1E /* AppDelegate.m in Sources */,
 				28FA1A371D678AD900BABB1E /* main.m in Sources */,
 			);
@@ -261,6 +342,7 @@
 		};
 		28FA1A4A1D678AD900BABB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58AD6F32B498847F5509F79 /* Pods-InstaAPIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaAPIDemo/Info.plist;
@@ -272,6 +354,7 @@
 		};
 		28FA1A4B1D678AD900BABB1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E780930FDC481623B366EE0C /* Pods-InstaAPIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaAPIDemo/Info.plist;
@@ -300,6 +383,7 @@
 				28FA1A4B1D678AD900BABB1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

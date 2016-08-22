@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UIWebViewDelegate>
 
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+
+@property NSString *profile_image_url;
+
+@property UIWebView *authView;
+
+@property NSMutableArray *images;
 
 @end
 
